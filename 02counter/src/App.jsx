@@ -15,6 +15,16 @@ function App() {
     // setCounter(counter)
     if(counter < 20){
       setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // this will print the 16 only because useState send the update to UI in batches.
+
+      // setCounter((prevCounter) => prevCounter + 1)
+      // setCounter((prevCounter) => prevCounter + 1)
+      // setCounter((prevCounter) => prevCounter + 1)
+      // setCounter((prevCounter) => prevCounter + 1)
+      // in this 19 is printed because it takes the previous value of counter and then increment it.
     }
   }
 
